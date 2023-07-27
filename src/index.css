@@ -1,0 +1,141 @@
+/*-----------Normalizing-----------*/
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body,
+#root {
+  height: 100%;
+  font-size: 13px;
+  line-height: 137.69%;
+  font-weight: 500;
+  color: #474955;
+  background: #ffffff;
+  font-family: roboto, sans-serif;
+}
+/*-----------End normalizing-----------*/
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+.main {
+  flex: auto;
+  padding-top: 15px;
+}
+.container {
+  max-width: 1077px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
+/*-----------TABLE-----------*/
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+thead tr {
+  background-color: #474955;
+  color: #ffffff;
+  height: 54px;
+  font-size: 14px;
+}
+thead tr th:nth-child(1) {
+  width: 10.22%;
+  padding-left: 23px;
+  text-align: left;
+}
+thead tr th:nth-child(2) {
+  width: 49.16%;
+  padding-left: 125px;
+  text-align: left;
+}
+thead tr th:nth-child(3) {
+  width: 40.62%;
+  padding-left: 121px;
+  text-align: left;
+}
+tbody tr td:nth-child(1) {
+  text-align: center;
+}
+tbody tr td:nth-child(2) {
+  padding-left: 8px;
+}
+tbody tr td:nth-child(3) {
+  padding: 15px 11px;
+}
+/*-----------TABLE BORDERS-----------*/
+td {
+  border: 1px solid #E3E6EC;
+  border-bottom: none;
+  border-right: none;
+}
+tr td:last-child {
+  border-right: 1px solid #E3E6EC;
+}
+table tr:last-child td {
+  border-bottom: 1px solid #E3E6EC;
+}
+/*-----------END TABLE BORDERS-----------*/
+/*-----------SEARCH-----------*/
+.search_body {
+  position: relative;
+  max-width: 631px;
+}
+.search_body img {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+}
+.search_input {
+  font-size: 14px;
+  color: #B2B7BF;
+  padding: 18px 65px 18px 26px;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #474955;
+}
+.search_input:focus {
+  outline:none;
+}
+/*-----------TABLE HEADER-----------*/
+.idHeader > *:nth-child(1) {
+  margin-right: 39px;
+}
+.titleHeader > *:nth-child(1) {
+  margin-right: 34px;
+}
+.descriptionHeader > *:nth-child(1) {
+  margin-right: 25px;
+}
+/*-----------FOOTER-----------*/
+.footer {
+  text-align: center;
+  padding: 10px 0;
+}

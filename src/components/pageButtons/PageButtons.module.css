@@ -1,0 +1,30 @@
+.pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 25px 30px 41px;
+}
+.pageWrapper {
+  display: flex;
+}
+.pageButton {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+}
+.pageButton:hover {
+  cursor: pointer;
+}
+.pageButton:not(:last-child) {
+  margin-right: 15px;
+}
+.currentPageButton {
+  color: #7EBC3C;
+}
+.forthBack {
+  font-size: 24px;
+  font-weight: 500;
+}
+.forthBack:hover {
+  cursor: pointer;
+}
